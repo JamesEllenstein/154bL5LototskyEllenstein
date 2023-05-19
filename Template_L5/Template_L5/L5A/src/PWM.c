@@ -31,7 +31,7 @@ void TIM2_CH1_Init(void){
 	TIM2->CR1 &= ~(TIM_CR1_DIR);
 	TIM2->CR1 |= TIM_CR1_DIR;
   // Prescaler
-	TIM2->PSC = 3;
+	//TIM2->PSC = 3;
   // Auto-reload
 	TIM2->CR1 |= TIM_CR1_ARPE;
 	TIM2->ARR = 16000;
